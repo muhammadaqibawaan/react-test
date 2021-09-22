@@ -1,0 +1,206 @@
+.login-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.856);
+}
+
+.login-component {
+  width: 550px;
+  min-height: 300px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.login-component img.logo {
+  margin-top: -50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+p.login-title {
+  text-align: center;
+  font-size: 15px;
+}
+
+.login-form {
+  width: 95%;
+  margin: auto;
+}
+.login-form label {
+  font-weight: 500;
+  /* margin-bottom: 20px; */
+}
+
+.login-form span.ant-input-affix-wrapper {
+  border-radius: 20px;
+}
+
+.login-form-button {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.login-form .forgottpass {
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.ant-form-item {
+  margin-bottom: 12px !important;
+  vertical-align: top;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px 12px;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+p.no-oftoken {
+  font-size: 19px;
+  font-weight: 600;
+}
+.token {
+  background: #109bec;
+  color: white;
+  display: flex;
+  margin: 0px 6px;
+  align-items: center;
+}
+.token > p {
+  margin-bottom: 0px;
+  margin: 0px 2px;
+}
+
+.token > div > p {
+  line-height: 20px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.left {
+}
+.right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search,
+.create {
+  background: #2121bb;
+  padding: 4px 8px;
+  color: white;
+  border-radius: 3px;
+  margin: 0px 6px;
+}
+
+.user-profile {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-profile > svg {
+  height: 100%;
+  width: 70%;
+}
+.table-container {
+  width: 95%;
+  margin: auto;
+  border: 5px solid #e0e7f3;
+}
+.align-items-center {
+  align-items: center;
+}
+p {
+  margin: 0px;
+}
+
+.table-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 10px;
+}
+p.invite {
+  background: #109bec;
+  text-align: center;
+  padding: 3px;
+  color: white;
+}
+.ant-drawer-close {
+  display: none;
+}
+.ant-drawer-header {
+  position: relative;
+  background-color: cornflowerblue !important;
+  color: white;
+  padding: 12px 24px !important;
+  color: white !important;
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 2px 2px 0 0;
+} 
+.drawer-photo svg {
+  width: 68px;
+  height: 68px;
+  border: 1px solid black;
+  border-radius: 124px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.p-2.d-flex.align-items-center {
+  width: 100%;
+background-color: cadetblue;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+}
+.p-2.d-flex.align-items-center button {
+  display: block;
+  margin: 10px auto;
+}
+
+.ant-form-item {padding: 0;
+color: rgba(0, 0, 0, 0.65);
+font-size: 14px;
+font-variant: tabular-nums;
+line-height: 1.5715;
+list-style: none;
+-webkit-font-feature-settings: 'tnum';
+font-feature-settings: 'tnum', "tnum";
+margin-bottom: 24px;
+vertical-align: top;
+display: flex !important;
+flex-direction: column !important;
+align-items: flex-start !important;
+}
+
+.ant-col.ant-form-item-control {
+  width: 100% !important;
+}
